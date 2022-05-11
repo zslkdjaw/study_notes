@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="441.0" prefWidth="582.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+    <Pane layoutY="3.0" prefHeight="433.0" prefWidth="584.0">
+      <children>
+        <Button fx:id="search" layoutX="371.0" layoutY="70.0" mnemonicParsing="false" onAction="#search" prefWidth="60.0" text="查询" />
+        <Text layoutX="77.0" layoutY="88.0" scaleX="1.1666666666666667" scaleY="1.0000052492629714" strokeType="OUTSIDE" strokeWidth="0.0" text="昵称" />
+        <TextField fx:id="input" layoutX="149.0" layoutY="70.0" prefWidth="161.0" />
+            <Pagination fx:id="page" layoutX="1.0" layoutY="149.0" prefHeight="238.0" prefWidth="584.0" />
+          <Button fx:id="add" layoutX="461.0" layoutY="70.0" mnemonicParsing="false" onAction="#add" prefWidth="60.0" text="添加" />
+      </children>
+    </Pane>
+    <TableView fx:id="UserV" layoutX="2.0" layoutY="122.0" prefHeight="212.0" prefWidth="572.0">
+      <columns>
+        <TableColumn fx:id="name" maxWidth="5000.0" minWidth="10.0" prefWidth="149.0" text="昵称" />
+        <TableColumn fx:id="profile_picture" maxWidth="5000.0" minWidth="10.0" prefWidth="84.0" text="头像" />
+        <TableColumn fx:id="credit" maxWidth="5000.0" minWidth="10.0" prefWidth="81.0" text="积分" />
+        <TableColumn fx:id="password" maxWidth="5000.0" minWidth="10.0" prefWidth="146.0" text="登陆密码" />
+        <TableColumn fx:id="match_times" maxWidth="5000.0" minWidth="10.0" prefWidth="104.0" text="比赛次数" />
+      </columns>
+    </TableView>
+  </children>
+</AnchorPane>
