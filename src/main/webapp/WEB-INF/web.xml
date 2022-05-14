@@ -1,0 +1,130 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+
+<web-app>
+
+  <servlet>
+      <servlet-name>ListClientServlet</servlet-name>
+      <servlet-class>cn.edu.bnuz.order_system.controller.clientServlet.ListClientServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>ListClientServlet</servlet-name>
+      <url-pattern>/listClient</url-pattern>
+  </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FindClientServlet</servlet-name>
+        <servlet-class>cn.edu.bnuz.order_system.controller.clientServlet.FindClientServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FindClientServlet</servlet-name>
+        <url-pattern>/findClient</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddClientServlet</servlet-name>
+        <servlet-class>cn.edu.bnuz.order_system.controller.clientServlet.AddClientServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddClientServlet</servlet-name>
+        <url-pattern>/addClient</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>RemoveClientServlet</servlet-name>
+        <servlet-class>cn.edu.bnuz.order_system.controller.clientServlet.RemoveClientServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RemoveClientServlet</servlet-name>
+        <url-pattern>/removeClient</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>UpdateClientServlet</servlet-name>
+        <servlet-class>cn.edu.bnuz.order_system.controller.clientServlet.UpdateClientServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateClientServlet</servlet-name>
+        <url-pattern>/updateClient</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ListProductServlet</servlet-name>
+        <servlet-class>cn.edu.bnuz.order_system.controller.productServlet.ListProductServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListProductServlet</servlet-name>
+        <url-pattern>/listProduct</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddProductServlet</servlet-name>
+        <servlet-class>cn.edu.bnuz.order_system.controller.productServlet.AddProductServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddProductServlet</servlet-name>
+        <url-pattern>/addProduct</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FindProductServlet</servlet-name>
+        <servlet-class>cn.edu.bnuz.order_system.controller.productServlet.FindProductServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+         <servlet-name>FindProductServlet</servlet-name>
+         <url-pattern>/findProduct</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>RemoveProductServlet</servlet-name>
+        <servlet-class>cn.edu.bnuz.order_system.controller.productServlet.RemoveProductServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RemoveProductServlet</servlet-name>
+        <url-pattern>/removeProduct</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdateProductServlet</servlet-name>
+        <servlet-class>cn.edu.bnuz.order_system.controller.productServlet.UpdateProductClient</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateProductServlet</servlet-name>
+        <url-pattern>/updateProduct</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ListOrderServlet</servlet-name>
+        <servlet-class>cn.edu.bnuz.order_system.controller.orderServlet.ListOrderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListOrderServlet</servlet-name>
+        <url-pattern>/listOrder</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ListProductsServlet</servlet-name>
+        <servlet-class>cn.edu.bnuz.order_system.controller.orderServlet.ListProductsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListProductsServlet</servlet-name>
+        <url-pattern>/listProducts</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+
+
+
+
+    <welcome-file-list>
+        <welcome-file>main.jsp</welcome-file>
+    </welcome-file-list>
+
+
+</web-app>
