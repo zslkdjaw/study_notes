@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<Pane prefHeight="336.0" prefWidth="310.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="add_Controller">
+  <children>
+    <TextField fx:id="t1" layoutX="50.0" layoutY="21.0" prefWidth="200.0" promptText="昵称" />
+    <TextField fx:id="t4" layoutX="50.0" layoutY="217.0" prefWidth="200.0" promptText="比赛次数" />
+    <TextField fx:id="t3" layoutX="50.0" layoutY="168.0" prefWidth="200.0" promptText="密码" />
+    <TextField fx:id="t2" layoutX="50.0" layoutY="116.0" prefWidth="200.0" promptText="积分" />
+    <Button fx:id="submit" layoutX="113.0" layoutY="270.0" mnemonicParsing="false" onAction="#sub" text="提交" />
+      <TextField fx:id="t0" layoutX="50.0" layoutY="70.0" prefWidth="200.0" promptText="头像（文件路径）" />
+  </children>
+</Pane>
